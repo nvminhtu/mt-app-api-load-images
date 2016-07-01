@@ -1,0 +1,144 @@
+{
+    "results": [ 
+    	{ 
+    		"id":"1",
+    		"name":"Hamster",
+    		"photos": [
+    			"img/hamster/hamster-00.gif",
+    			"img/hamster/hamster-01.gif",
+			    "img/hamster/hamster-02.gif",
+			    "img/hamster/hamster-03.gif",
+			    "img/hamster/hamster-04.gif",
+			    "img/hamster/hamster-05.gif",
+			    "img/hamster/hamster-06.gif"
+			]
+    	},
+    	{ 
+    		"id":"2",
+    		"name":"Bull",
+    		"photos": [
+    			"img/bull/bull-00.gif",
+    			"img/bull/bull-01.gif",
+			    "img/bull/bull-02.gif",
+			    "img/bull/bull-03.gif",
+			    "img/bull/bull-04.gif",
+			    "img/bull/bull-05.gif",
+			    "img/bull/bull-06.gif",
+			    "img/bull/bull-07.gif"
+			]
+    	},
+    	{ 
+    		"id":"3",
+    		"name":"Bulldog",
+    		"photos": [
+    			"img/bulldog/bulldog-00.gif",
+    			"img/bulldog/bulldog-01.gif",
+			    "img/bulldog/bulldog-02.gif",
+			    "img/bulldog/bulldog-03.gif",
+			    "img/bulldog/bulldog-04.gif",
+			    "img/bulldog/bulldog-05.gif",
+			    "img/bulldog/bulldog-06.gif",
+			    "img/bulldog/bulldog-07.gif"
+			]
+    	},
+    	{ 
+    		"id":"4",
+    		"name":"Dalmatian",
+    		"photos": [
+    			"img/dalmatian/dalmatian-00.gif",
+    			"img/dalmatian/dalmatian-01.gif",
+			    "img/dalmatian/dalmatian-02.gif",
+			    "img/dalmatian/dalmatian-03.gif",
+			    "img/dalmatian/dalmatian-04.gif",
+			    "img/dalmatian/dalmatian-05.gif",
+			    "img/dalmatian/dalmatian-06.gif",
+			    "img/dalmatian/dalmatian-07.gif",
+			    "img/dalmatian/dalmatian-08.gif"
+			]
+    	},
+    	{ 
+    		"id":"5",
+    		"name":"Donkey",
+    		"photos": [
+    			"img/donkey/donkey-00.gif",
+    			"img/donkey/donkey-01.gif",
+			    "img/donkey/donkey-02.gif",
+			    "img/donkey/donkey-03.gif",
+			    "img/donkey/donkey-04.gif",
+			    "img/donkey/donkey-05.gif",
+			    "img/donkey/donkey-06.gif",
+			    "img/donkey/donkey-07.gif"
+			]
+    	},
+    	{ 
+    		"id":"6",
+    		"name":"Goat",
+    		"photos": [
+    			"img/goat/goat-00.png",
+    			"img/goat/goat-01.png",
+			    "img/goat/goat-02.png",
+			    "img/goat/goat-03.png",
+			    "img/goat/goat-04.png",
+			    "img/goat/goat-05.png",
+			    "img/goat/goat-06.png"
+			]
+    	},
+    	{ 
+    		"id":"7",
+    		"name":"Insect",
+    		"photos": [
+    			"img/insect/insect-00.gif",
+    			"img/insect/insect-01.gif",
+			    "img/insect/insect-02.png",
+			    "img/insect/insect-03.png",
+			    "img/insect/insect-04.png",
+			    "img/insect/insect-05.png",
+			    "img/insect/insect-06.gif",
+			    "img/insect/insect-07.gif"
+			]
+    	},
+    	{ 
+    		"id":"8",
+    		"name":"Mosquito",
+    		"photos": [
+    			"img/mosquito/mosquito-00.gif",
+    			"img/mosquito/mosquito-01.gif",
+			    "img/mosquito/mosquito-02.gif",
+			    "img/mosquito/mosquito-03.gif",
+			    "img/mosquito/mosquito-04.gif",
+			    "img/mosquito/mosquito-05.gif",
+			    "img/mosquito/mosquito-06.gif",
+			    "img/mosquito/mosquito-07.gif",
+			    "img/mosquito/mosquito-08.gif"
+			]
+    	},
+    	{ 
+    		"id":"9",
+    		"name":"Poodle",
+    		"photos": [
+    			"img/poodle/poodle-00.png",
+    			"img/poodle/poodle-01.png",
+			    "img/poodle/poodle-02.png",
+			    "img/poodle/poodle-03.png",
+			    "img/poodle/poodle-04.png",
+			    "img/poodle/poodle-05.png",
+			    "img/poodle/poodle-06.png",
+			    "img/poodle/poodle-07.png",
+			    "img/poodle/poodle-08.png"
+			]
+    	},
+    	{ 
+    		"id":"10",
+    		"name":"Worm",
+    		"photos": [
+    			"img/worm/worm-00.gif",
+    			"img/worm/worm-01.gif",
+			    "img/worm/worm-02.gif",
+			    "img/worm/worm-03.gif",
+			    "img/worm/worm-04.gif",
+			    "img/worm/worm-05.gif",
+			    "img/worm/worm-06.gif"
+			]
+    	}
+    ]	
+}

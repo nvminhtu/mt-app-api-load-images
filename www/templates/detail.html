@@ -1,0 +1,32 @@
+<ion-pane ng-controller="AppCtrl">
+  <ion-header-bar id="header" class="bar assertive">
+    <a ng-href="#/category/" class="button red-focus ion-chevron-left icon-left">{{ catBack }}</a>
+    <h1 class="title title-center">{{ draw.name }}</h1>
+  </ion-header-bar>
+  <ion-content>
+    <div id="detail" class="list">
+      
+	  	<div class="item item-body wslider">
+         <ks-swiper-container 
+              initial-slide="0" 
+              speed="2000" 
+              loop="true" 
+              show-nav-buttons="true"
+              slides-per-view="1" 
+              space-between="5" 
+              pagination-clickable="true" 
+              override-parameters="{effect: 'coverflow',coverflow: {rotate: 50,stretch: 0,depth: 100,modifier: 1,slideShadows : false}}" on-ready="onReadySwiper(swiper)">
+            
+             <ks-swiper-slide class="swiper-slide" ng-repeat="photo in photos">
+                <img ng-src="{{photo}}" width="100%" />
+                <div class="item item-order">
+                   {{ stepIndex($index) }}
+                </div>
+            </ks-swiper-slide>            
+        </ks-swiper-container>
+      </div>
+      
+		</div>
+  </ion-content>
+
+</ion-pane>

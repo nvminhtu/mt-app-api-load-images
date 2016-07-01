@@ -1,0 +1,155 @@
+/*---------------------------------------
+  01- Override
+----------------------------------------*/
+a.button .icon:before, a.button.icon:before, a.button.icon-left:before, a.button.icon-right:before {
+  margin-top: 0; }
+
+.bar a.button {
+  line-height: 45px; }
+
+.bar a.button.icon-left:before,
+.bar a.button.icon-right:before {
+  line-height: 45px; }
+
+/*---------------------------------------
+  02- Mixin & Variables
+----------------------------------------*/
+/*  Global variables
+----------------------------------------*/
+/*  Global mixin
+----------------------------------------*/
+/*  Global font-face mixin
+----------------------------------------*/
+@font-face {
+  font-family: SillyFont;
+  src: url("../fonts/sillymonkey.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: SweetFont;
+  src: url("../fonts/sweet-cheeks.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: DrawingFont;
+  src: url("../fonts/drawing-font.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: HarrisToon;
+  src: url("../fonts/harristoon.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: Sketchline;
+  src: url("../fonts/sketchline.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: Scribble;
+  src: url("../fonts/scribble.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+/*---------------------------------------
+  03- Class build and customization
+----------------------------------------*/
+#header {
+  background: #524C56; }
+  #header h1 {
+    font-size: 134%;
+    color: #FFC600;
+    font-family: Scribble;
+    word-spacing: 5px; }
+  #header.bar {
+    height: 60px; }
+    #header.bar .title {
+      height: 60px;
+      line-height: 60px;
+      right: 0 !important;
+      left: 0 !important; }
+  #header .others {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    bottom: 5px; }
+
+#footer {
+  background: #524C56; }
+
+.bar-footer {
+  height: 60px; }
+
+.cat-style .view-container,
+.cat-style .pane,
+.cat-style .scroll-content {
+  background: #f2e3cc; }
+
+/*  Card Item
+----------------------------------------*/
+.joke-cat .item-avatar {
+  min-height: 55px; }
+  .joke-cat .item-avatar > img:first-child {
+    top: 8px; }
+
+/*  Card Item - Detail
+----------------------------------------*/
+.item {
+  border: none; }
+
+.item-body {
+  padding: 8px; }
+
+/*  Slideshow
+----------------------------------------*/
+.wslider .swiper-slide img {
+  width: 100%;
+  height: auto; }
+
+.wslider {
+  padding-top: 30px; }
+
+.swiper-button-prev,
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-next {
+  top: initial;
+  bottom: 10px;
+  width: 52px;
+  height: 52px;
+  background-size: 52px 52px; }
+
+.swiper-button-prev {
+  background: url("../img/button-left.png") no-repeat; }
+
+.swiper-button-next {
+  background: url("../img/button-right.png") no-repeat; }
+
+.item-order {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 150%; }
+
+.joke-cat h2 {
+  color: #63666f;
+  font-size: 125%;
+  font-family: Scribble; }
+
+.joke-cat .steps {
+  font-family: Sketchline;
+  font-weight: bold;
+  color: #4C8CB8; }
+
+.red-focus {
+  background: #f54363;
+  color: #ffffff; }
+
+.item-note {
+  text-align: right; }
+
+.bar.bar-assertive {
+  border-color: #615b64; }
